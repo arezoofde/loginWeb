@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(135deg, #fab2ff 10%, #1904e5 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+.form {
+  margin: 0 auto;
+  width: 80%;
+  height: 40em;
+  border-radius: 10px;
+  background-color: aliceblue;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #090b6f85;
+}
+.form .left {
+  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/dd.jpg);
+  overflow: hidden;
+  width: initial;
+}
+.topic {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(86, 13, 99);
+  margin-bottom: 16px;
+}
+p {
+  text-align: justify;
+}
+.lower .topic {
+  margin: 24px 0 5px 0;
+}
+.lower i {
+  padding-right: 16px;
+}
+.middle {
+  padding-left: 80px;
+}
+.middle a {
+  line-height: 32px;
+}
+
+.media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover {
+  border-color: #eb2f06;
+}
+
+@media (max-width: 950px) {
+  .box {
+    width: 50%;
+  }
+  .right {
+    margin-top: 40px;
+  }
+}
+
+.box {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.middle {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: rgb(179, 179, 179);
+}

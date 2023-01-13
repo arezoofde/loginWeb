@@ -1,0 +1,22 @@
+body{
+  background-image: url(../img/cc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100em 50em;
+}
+.container {
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+}
+
+.error {
+  background-color: pink;
+  color: red;
+  width: 300px;
+  margin: 0 auto;
+}
